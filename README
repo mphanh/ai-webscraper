@@ -1,0 +1,18 @@
+# Commands to run
+python -m venv ai
+source ai/Scripts/activate.bat
+pip install -r requirements.txt
+streamlit run main.py
+
+# 2 options for driver
+# Download local driver chromedriver.exe
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+# Unlocking Websites/Captchas/IP Bans -> run remote driver
+https://brightdata.com/
+
+# Download and install Ollama
+https://ollama.com/
+
+# Pull llama3.1 if necessary
+ollama pull llama3.1
+ollama run llama3.1

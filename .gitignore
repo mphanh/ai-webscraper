@@ -1,0 +1,6 @@
+**/.env
+**/venv/*
+**/images/*
+**/ai/*
+**/__pycache__/*
+**/chromedriver.exe
